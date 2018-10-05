@@ -1,8 +1,10 @@
  change project name in cmakelists.txt
  
+ mkdir build
  cd build
  cmake ..
  
  make
  make clean
  
+ ./projectname to run
