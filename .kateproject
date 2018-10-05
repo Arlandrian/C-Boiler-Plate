@@ -1,10 +1,10 @@
 {
-  "name": "Kate"
+  "name": "My Project"
 , "files": [ { "git": 1 } ]
 , "build": {
-    "directory": "build"
-  , "build": "make all"
-  , "clean": "make clean"
-  , "install": "make install"
+    "directory": "./"
+  , "build": "build/make all"
+  , "clean": "build/make clean"
+  , "install": "build/make install"
   }
 }
